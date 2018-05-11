@@ -10,10 +10,13 @@ Prof. Dr.-Ing. habil. Wurst, Hans		^(Prof\. Dr\.\-Ing\. habil\.)(?=\sWurst, Hans
 Prof. Prof. h.c. Dr. rer. nat. Wurst, Hans	^(Prof\. Prof\. h\.c\. Dr\. rer\. nat\.)(?=\sWurst, Hans)
 Dipl.-Prähist. Wurst, Hans			^(Dipl\.\-Prähist\.)(?=\sWurst, Hans)
 
-Dipl.-Ökonom Riedel,
-
-Dipl.-Ing. (FH) Puhle
-Dipl.-Des.
-Dipl.-Krist.
+Komplett:
 
 ^(Dr\.|Prof\.|Prof\. Dr\.|Dr\.\-Ing\.|Prof\. Dr\.\-Ing\.|Prof\. Dr\. phil\. habil\.|Dipl.\-Kfm\.|Prof. Dr\. jur\. LL\.M\.|Prof\. Dr\.\-Ing\. habil\.|Prof\. Prof\. h\.c\. Dr\. rer\. nat\.|Dipl\.\-Prähist\.)(?=\sWurst, Hans)
+
+Neu (noch hinzufügen):
+
+Dipl.-Ökonom
+Dipl.-Ing. (FH)
+Dipl.-Des.
+Dipl.-Krist.
