@@ -1,1 +1,1 @@
-# H1 Studienprojekt LSF-Sucher
+# Studienprojekt LSF-Sucher
