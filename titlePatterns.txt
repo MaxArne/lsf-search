@@ -1,0 +1,19 @@
+Dr. Wurst, Hans					^(Dr\.)(?=\sWurst, Hans)
+Prof. Wurst, Hans				^(Prof\.)(?=\sWurst, Hans)
+Prof. Dr. Wurst, Hans				^(Prof\. Dr\.)(?=\sWurst, Hans)
+Dr.-Ing. Wurst, Hans				^(Dr\.\-Ing\.)(?=\sWurst, Hans)
+Prof. Dr.-Ing. Wurst, Hans			^(Prof\. Dr\.\-Ing\.)(?=\sWurst, Hans)
+Prof. Dr. phil. habil. Wurst, Hans		^(Prof\. Dr\. phil\. habil\.)(?=\sWurst, Hans)
+Dipl.-Kfm. Wurst, Hans				^(Dipl.\-Kfm\.)(?=\sWurst, Hans)
+Prof. Dr. jur. LL.M. Wurst, Hans		^(Prof. Dr\. jur\. LL\.M\.)(?=\sWurst, Hans)
+Prof. Dr.-Ing. habil. Wurst, Hans		^(Prof\. Dr\.\-Ing\. habil\.)(?=\sWurst, Hans)
+Prof. Prof. h.c. Dr. rer. nat. Wurst, Hans	^(Prof\. Prof\. h\.c\. Dr\. rer\. nat\.)(?=\sWurst, Hans)
+Dipl.-Prähist. Wurst, Hans			^(Dipl\.\-Prähist\.)(?=\sWurst, Hans)
+
+Dipl.-Ökonom Riedel,
+
+Dipl.-Ing. (FH) Puhle
+Dipl.-Des.
+Dipl.-Krist.
+
+^(Dr\.|Prof\.|Prof\. Dr\.|Dr\.\-Ing\.|Prof\. Dr\.\-Ing\.|Prof\. Dr\. phil\. habil\.|Dipl.\-Kfm\.|Prof. Dr\. jur\. LL\.M\.|Prof\. Dr\.\-Ing\. habil\.|Prof\. Prof\. h\.c\. Dr\. rer\. nat\.|Dipl\.\-Prähist\.)(?=\sWurst, Hans)

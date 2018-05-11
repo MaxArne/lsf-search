@@ -1,0 +1,46 @@
+#-----Create user
+CREATE USER 'niklas'@'localhost' IDENTIFIED BY 'p';
+GRANT ALL PRIVILEGES ON test . * TO 'niklas'@'localhost';
+CREATE USER 'niklas'@'%' IDENTIFIED BY 'p';
+GRANT ALL PRIVILEGES ON test . * TO 'niklas'@'%';
+FLUSH PRIVILEGES;
+
+#-----Create Tables
+
+CREATE TABLE Events (
+    EventID int NOT NULL,
+    PRIMARY KEY (EventID),
+
+    LecturerID int NOT NULL,
+    FOREIGN KEY (LecturerID) REFERENCES Lecturers(LecturerID),
+
+    RoomID int NOT NULL,
+    FOREIGN KEY (RoomID) REFERENCES Rooms(RoomID),
+
+    EventName varchar(255) NOT NULL
+);
+
+CREATE TABLE Lecturers (
+    LecturerID int NOT NULL,
+    PRIMARY KEY (LecturerID),
+    FirstName varchar(255) NOT NULL,
+    LastName varchar(255) NOT NULL,
+    AcademicTitle varchar(255) NOT NULL,
+    FormalTitle varchar(255) NOT NULL
+);
+
+CREATE TABLE Buildings (
+    BuildingID int NOT NULL,
+    PRIMARY KEY (BuildingID),
+    BuildingName varchar(255) NOT NULL,
+    BuildingNameShort varchar(255) NOT NULL,
+    BuildingNameLong varchar(255) NOT NULL
+);
+
+CREATE TABLE Rooms (
+    RoomID int NOT NULL,
+    PRIMARY KEY (RoomID),
+    RoomNumber int NOT NULL,
+    BuildingID int NOT NULL,
+    FOREIGN KEY (BuildingID) REFERENCES Buildings(BuildingID)
+);
