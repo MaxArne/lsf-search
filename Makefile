@@ -2,7 +2,7 @@ INC=-I./includes -I/usr/local/lib
 SRC=./sources
 objects=
 
-FLAGS= -g -Wall -std=c++11
+FLAGS= -g -Wall  -std=c++11
 COMPILER=g++
 
 LIBFCGI=-lfcgi++ -lfcgi

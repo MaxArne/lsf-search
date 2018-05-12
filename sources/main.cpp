@@ -105,7 +105,8 @@ std::string renderHTML(string uri, string http_request_content){
   return output;
 
 }
-int main(void) {
+int main(int argc, char const *argv[]) {
+
     // Backup the stdio streambufs
     streambuf * cin_streambuf  = cin.rdbuf();
     streambuf * cout_streambuf = cout.rdbuf();
