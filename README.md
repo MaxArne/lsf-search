@@ -4,7 +4,8 @@
 Tested on Debian stretch
 
 ### Install dependencies
-sudo apt-get install nginx dh-autoreconf libfcgi-dev spawn-fcgi
+
+  sudo apt-get install nginx dh-autoreconf libfcgi-dev spawn-fcgi
   -
 ## Compiling
 
@@ -27,7 +28,6 @@ Just run make in the project root directory
 >
 >   location / {
 >     fastcgi_pass   127.0.0.1:8000;
->
 >     fastcgi_param  GATEWAY_INTERFACE  CGI/1.1;
 >     fastcgi_param  SERVER_SOFTWARE    nginx;
 >     fastcgi_param  QUERY_STRING       $query_string;
