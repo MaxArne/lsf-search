@@ -1,4 +1,4 @@
-# Studienprojekt LSF-search
+#LSF-search
 ## tool to search htw courses
 
 ## Prequesites:
