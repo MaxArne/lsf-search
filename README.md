@@ -4,7 +4,7 @@
 Tested on Debian stretch
 
 ### Install dependencies
-´´´
+```
   sudo apt-get install nginx dh-autoreconf libfcgi-dev spawn-fcgi
 ```
 
@@ -18,7 +18,7 @@ cd ctemplate
 ./configure --libdir=/usr/lib
 make
 sudo make install
-´´´
+```
 ### Compile Project
 Just run make in the project root directory
 
