@@ -20,4 +20,4 @@ clean:
 	rm -rf *.o
 
 buildDir:
-	mkdir ./bin
+	if [ ! -d ./bin ]; then mkdir ./bin; fi
