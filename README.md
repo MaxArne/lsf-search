@@ -4,19 +4,21 @@
 Tested on Debian stretch
 
 ### Install dependencies
-
+´´´
   sudo apt-get install nginx dh-autoreconf libfcgi-dev spawn-fcgi
-  -
+```
+
 ## Compiling
 
 ### Compile ctemplate
-> git clone https://github.com/OlafvdSpek/ctemplate.git
-> cd ctemplate
-> ./autogen.sh
-> ./configure --libdir=/usr/lib
-> make
-> sudo make install
-
+```
+git clone https://github.com/OlafvdSpek/ctemplate.git
+cd ctemplate
+./autogen.sh
+./configure --libdir=/usr/lib
+make
+sudo make install
+´´´
 ### Compile Project
 Just run make in the project root directory
 
