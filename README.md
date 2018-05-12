@@ -1,19 +1,21 @@
-# Studienprojekt LSF-Sucher
+# Studienprojekt LSF-search
+## tool to search htw courses
 
 ## Prequesites:
-Tested on Debian stretch
+Tested on Debian Stretch
 
 ### Install dependencies
 ```
-  sudo apt-get install nginx dh-autoreconf libfcgi-dev spawn-fcgi
+sudo apt-get install nginx dh-autoreconf libfcgi-dev spawn-fcgi
 ```
 
 ## Compiling
-
 ### Compile ctemplate
 ```
-git clone https://github.com/OlafvdSpek/ctemplate.git
-cd ctemplate
+git@github.com:nik2509/lsf-search.git
+cd lsf-search
+git submodule update --init
+cd libs/ctemplate
 ./autogen.sh
 ./configure --libdir=/usr/lib
 make
