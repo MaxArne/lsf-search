@@ -1,0 +1,3 @@
+[submodule "libs/ctemplate"]
+	path = libs/ctemplate
+	url = https://github.com/OlafvdSpek/ctemplate.git
