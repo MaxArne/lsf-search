@@ -12,7 +12,7 @@ sudo apt-get install nginx dh-autoreconf libfcgi-dev spawn-fcgi
 ## Compiling
 ### Compile ctemplate
 ```
-git clonet https://github.com/nik2509/lsf-search.git
+git clone https://github.com/nik2509/lsf-search.git
 cd lsf-search
 git submodule update --init
 cd libs/ctemplate
