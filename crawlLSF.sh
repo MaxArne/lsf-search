@@ -1,5 +1,6 @@
 #!/bin/bash
 # ------- Enter Database connection details here -------
+# mein erster Eintrag
 
 databaseUser=""
 databasePassword=""
